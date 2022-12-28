@@ -1,0 +1,211 @@
+div.navbar {
+    margin: -11px;
+    padding: 0;
+    position: sticky;
+    display: flex;
+    font-family: 'Roboto', sans-serif
+}
+
+.navleftelements {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0px 70px;
+}
+
+li {
+    padding: 0px 19px;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.microsoftlogo {
+    height: 75px;
+    width: 120px;
+}
+
+.leftelements-products {
+    display: flex;
+    margin-top: 30px;
+}
+
+ul.navrightelements {
+    display: flex;
+    list-style-type: none;
+}
+
+.rightelements-products{
+    margin-top: 15px;
+    position: absolute;
+    right: 77px;
+}
+
+
+.trending-product-animation{
+    height: 70vh;
+    /* border: 2px solid red; */
+    position: relative;
+    display: flex;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif
+}
+.NewButton {
+    position: absolute;
+    left: 109px;
+    top: 19vh;
+    background-color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: brown;
+    font-family: inherit;
+    font-weight: 1000;
+    font-size: 15px;
+    padding: 2px 6px;
+}
+
+
+.trending-product-information-text{
+    /* border: 2px solid yellow; */
+    margin-top: 23vh;
+    
+}
+
+.LearnMore {
+    position: absolute;
+    left: 109px;
+    top: 45vh;
+    background-color: black;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-family: inherit;
+    font-weight: 1000;
+    font-size: 15px;
+    padding: 9px 15px;
+}
+
+.image-container{
+    max-width: 45vw;
+    position: absolute;
+    right: 195px;
+}
+
+.image{
+max-height: 70vh;
+    
+}
+
+.main-link-list{
+/* border: 2px solid red; */
+position: relative;
+height: 35vh;
+
+}
+.child-link-list{
+    /* border: 2px solid blue; */
+    height: 35vh;
+    position: absolute;
+    left: 344px;
+    padding: 24px;
+}
+
+.link-lists{
+    display: flex;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif
+}
+
+.different-products{
+    height: 70vh;
+    /* border: 3px solid red; */
+    position: relative;
+}
+
+.different-products-container{
+    position : absolute;
+    left: 14px;
+}
+.descriptions{
+    display: flex;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif
+}
+
+.description-list:hover {
+   
+    text-decoration: none;
+    
+}
+.description-list p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.descriptionNew{
+    background: brown;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 190px;
+}
+
+.bigimage{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    /* border: 2px solid red; */
+    height: 525px;
+}
+.bigimage-container{
+    position: absolute;
+    left: 64px;
+    z-index: -1;
+}
+.boxinsidebigimage{
+    position: absolute;
+    left: 174px;
+    background-color: whitesmoke;
+    height: 300px;
+    top: 85px;
+    padding: 37px 54px;
+}
+.DownloadNow {
+    position: absolute;
+    top: 254px;
+    left: 54px;
+    padding: 10px 16px;
+    background: black;
+    color: white;
+}
+
+.BusinessBlock{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    /* border: 2px solid red; */
+    height: 525px;
+    padding: 0px 35px;
+}
+.BusinessBlockcontainer{
+    /* border: 2px solid brown; */
+    display: flex;
+
+}
+.BusinessBox{
+    /* border: 2px solid green; */
+    width: 25%;
+    padding-right: 27px;
+}
+.BusinessNew {
+    background: brown;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 272px;
+}
+
+
+
